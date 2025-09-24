@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head> <!-- Contains metadata about the page-->
+    <title>Tarot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <!-- Ribbon navigation -->
+    <nav>
+        <ul class="ribbon">
+            <li><a href="#about">About</a></li>
+            <li><a href="{{ url_for('cards') }}">Cards</a></li>
+            <li><a href="{{ url_for('reading') }}">Reading</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sections -->
+     <section id="about">
+        <h2>About</h2>
+        <p>A simple website to just get your Tarot reading done. Also includes a page for information on each card.</p>
+     </section>
+</body>
+</html>
