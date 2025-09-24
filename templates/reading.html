@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reading</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <h1>Your reading</h1>
+    
+    <div class = "all-cards">
+    {% for key, img_list in images.items() %}
+        <div class="card-group">
+            {% for img in img_list %}
+                <div class ="card">
+                <img src="{{ url_for('static', filename=img) }}" alt="Image for {{ key }}">
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+    </div>
+</body>
+</html>
