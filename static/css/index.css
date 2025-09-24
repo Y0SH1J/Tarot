@@ -1,0 +1,35 @@
+.ribbon {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.ribbon li {
+    text-decoration: none;
+    color: black;
+}
+
+.all-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px; /* no gaps between groups */
+}
+
+.card-group {
+  display: contents;      /* keep group images side-by-side */
+  gap: 0;             /* no gaps between cards in same group */
+  margin: 0;          /* remove unwanted spacing */
+  padding: 0;
+}
+
+.card {
+  margin: 0;
+  padding: 0;
+}
+
+.card img {
+  width: 150px;       /* consistent sizing */
+  height: auto;
+}
