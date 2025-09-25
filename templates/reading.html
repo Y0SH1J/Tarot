@@ -3,6 +3,7 @@
 <head>
     <title>Reading</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </head>
 <body>
     <h1>Your reading</h1>
@@ -11,8 +12,17 @@
     {% for key, img_list in images.items() %}
         <div class="card-group">
             {% for img in img_list %}
-                <div class ="card">
-                <img src="{{ url_for('static', filename=img) }}" alt="Image for {{ key }}">
+                <div class="card" onClick="flipCard(this)">
+                    <div class="card-inner">
+                        <!-- Front face -->
+                        <div class="card-front">
+                            <img src="{{ url_for('static', filename=img) }}" alt="Image for {{ key }}">
+                        </div>
+                        <!-- Back face -->
+                        <div class="card-back">
+                            <img src="{{ url_for('static', filename='images/Back.png') }}" alt="Image for Back of card">
+                        </div>
+                    </div>
                 </div>
             {% endfor %}
         </div>
