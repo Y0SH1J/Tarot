@@ -1,0 +1,14 @@
+1. To overlay the back on top of the front (so you can flip it), you need a wrapper container (.card-inner) 
+that holds both faces and uses absolute positioning + backface-visibility.
+2. In HTML, stacking of elements is done, not queue. That is why, when you put back-card on top of front-card, front-card becomes visible!
+3. Exactly! 🎯 That’s a perfect mental model.
+Yes, it’s hypothetical in the sense that the “back” and “front” are just two elements stacked in 3D space.
+backface-visibility: hidden acts like the “magic invisible shield” for the side that’s pointing away from you.
+Your analogy works beautifully:
+Without it → it’s like two transparent cards with designs on each side stacked together. Flip it, and both designs are visible at the same time → messy.
+With it → only the side facing you is visible → clean, realistic flip.
+So in CSS card flips:
+You rotate the container (.card-inner) to simulate the flip.
+You rotate the front/back faces relative to the container so one is initially hidden.
+backface-visibility: hidden ensures the side pointing away doesn’t show — giving the proper illusion of a real card flipping.
+It really is all about visualization and imagining a 3D object in your hand. Once you get that mental model, the CSS starts to make a lot more sense.

@@ -1,4 +1,4 @@
-/* This is for the about page's ribbon */
+/* This is for the about and reading page's ribbon */
 
 .ribbon {
     list-style: none;
@@ -13,8 +13,30 @@
     color: black;
 }
 
-/* This is for the reading pages cards */
+/* This is for the ribbon of reading page */
+.header {
+    display: flex;           /* enables flex layout */
+    align-items: center;     /* vertically center items on the same line */
+    justify-content: flex-start; /* start items at left */
+    position: relative;     /* needed for absolute centering trick */
+    padding: 10px 10px 30px 10px;
+}
 
+.header h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);  /* perfectly center horizontally */
+    margin: 0;                     /* remove default h1 margin */
+}
+
+.header form {
+    position: absolute;
+    right: 5%;
+    transform: translateX(10%);  /* perfectly center horizontally */
+    margin: 0;                     /* remove default form margin */
+}
+
+/* This is for the reading pages' cards */
 .all-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -26,8 +48,8 @@
 }
 
 .card {
-  width: 150px;
-  height: 220px;
+  width: 120px;
+  height: 180px;
   perspective: 1000px; /* needed for 3D flip */
   cursor: pointer;
 }
@@ -72,4 +94,24 @@
   width: 100%;
   height: 100%;
   display: block;
+}
+
+/* Overlay */
+
+.overlay {
+    display: none; /* hidden by default */
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.overlay-content {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    text-align: center;
 }

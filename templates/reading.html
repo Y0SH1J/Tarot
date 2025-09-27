@@ -3,16 +3,28 @@
 <head>
     <title>Reading</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script> <!-- defer: Wait until the DOM is fully parsed before running this script -->
 </head>
 <body>
-    <h1>Your reading</h1>
+
+    <div class="header">
+        <ul class="ribbon">
+            <li><a href="{{ url_for('home') }}">Back to About</a></li>
+        </ul>
+        <h1>Your reading</h1>
+        <form id="card-form">
+            <label for="num_cards">Enter number of cards you wish to select: </label>
+            <input type="number" id="num_cards" name="num_cards" min="1" max="64" required>
+            <button type="submit">Enter!</button>
+            <span id="form-message"></span> <!-- Show text : Enter the cards -->
+        </form>
+    </div>
     
     <div class = "all-cards">
     {% for key, img_list in images.items() %}
         <div class="card-group">
             {% for img in img_list %}
-                <div class="card" onClick="flipCard(this)">
+                <div class="card" onClick="flipCard(this, '{{ img }}')">
                     <div class="card-inner">
                         <!-- Front face -->
                         <div class="card-front">
@@ -27,6 +39,14 @@
             {% endfor %}
         </div>
     {% endfor %}
+    </div>
+
+    <div id="overlay" class="overlay">
+        <div class="overlay-content">
+            <h2>Selected Cards:</h2>
+            <ul id="selected-cards-list"></ul>
+            <button id="reset-overlay">Reset!</button>
+        </div>
     </div>
 </body>
 </html>
