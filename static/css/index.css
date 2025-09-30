@@ -1,6 +1,6 @@
-/* This is for the about and reading page's ribbon */
+/* This is for the ribbon */
 
-.ribbon {
+.reading-nav-home, .home-nav, .cards-nav-reading, .cards-nav-home, .container-arcana {
     list-style: none;
     display: flex;
     gap: 20px;
@@ -8,12 +8,12 @@
     margin: 0;
 }
 
-.ribbon li {
+.reading-nav-home li, .home-nav li, .cards-nav-reading li, .cards-nav-home li, .container-arcana li {
     text-decoration: none;
     color: black;
 }
 
-/* This is for the ribbon of reading page */
+/* This is for the ribbon of reading and card page */
 .header {
     display: flex;           /* enables flex layout */
     align-items: center;     /* vertically center items on the same line */
@@ -29,13 +29,19 @@
     margin: 0;                     /* remove default h1 margin */
 }
 
-.header form {
+.header form { /* For the reading page */
     position: absolute;
     right: 5%;
     transform: translateX(10%);  /* perfectly center horizontally */
     margin: 0;                     /* remove default form margin */
 }
 
+.header .cards-nav-reading {
+  position: absolute;
+    right: 5%;
+    transform: translateX(10%);  /* perfectly center horizontally */
+    margin: 0;                     /* remove default form margin */
+}
 /* This is for the reading pages' cards */
 .all-cards {
   display: grid;

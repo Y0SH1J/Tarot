@@ -46,9 +46,16 @@ function shuffleCards(containerSelector){
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    shuffleCards('.all-cards'); // pass your card container to function for shuffling
+    const page = document.body.dataset.page;
+
+    if (page === "reading") {
+
+
+    shuffleCards('.all-cards'); // pass your card container to function for shuffling ***READING***
+
     
-    // Event listener for displaying number of cards to be selected
+    
+    // Event listener for displaying number of cards to be selected ***READING***
     document.getElementById('card-form').addEventListener('submit', function(e) {
         e.preventDefault();
         maxFlip = parseInt(document.getElementById('num_cards').value);
@@ -56,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         enterClicked = true;
     });
 
-    // Event listener to reset everything for a new reading
+    // Event listener to reset everything for a new reading ***READING***
     document.getElementById("reset-overlay").addEventListener("click", () =>{
 
         // Flip all the cards back
@@ -76,5 +83,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
          document.getElementById('form-message').textContent = "";
     });
+    }
+    else {
+        const buttonIds = Array.from(document.querySelectorAll('button'))
+                       .map(btn => btn.id)
+                       .filter(id => id); // removes empty strings
+        const output = document.getElementById("arcana-info");
+
+        buttonIds.forEach(id => {
+            const btn = document.getElementById(id);
+            btn.addEventListener('click', () => output.innerText = id);
+        })
+
+    }
 
 });

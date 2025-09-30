@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Card information</title>
+         <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+         <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+    </head>
+    <body data-page="cards">
+        <div class="header">
+            <ul class="cards-nav-home">
+                <li><a href="{{ url_for('home') }}">Back to About</a></li>
+            </ul>
+            <h1>Card Information</h1>
+            <ul class="cards-nav-reading">
+                <li><a href="{{ url_for('reading') }}">Go to Reading</a></li>
+            </ul>
+        </div>
+
+        <div class="header">
+            <ul class="container-arcana">
+                <li><button type="button" id="major">Major</button></li>
+                <li><button type="button" id="swords">Swords</button></li>
+                <li><button type="button" id="pentacles">Pentacles</button></li>
+                <li><button type="button" id="cups">Cups</button></li>
+                <li><button type="button" id="wands">Wands</button></li>
+            </ul>
+            
+        </div>
+        <p id="arcana-info"></p>
+    </body>
+</html>
