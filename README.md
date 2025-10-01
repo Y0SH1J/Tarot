@@ -71,37 +71,6 @@ A simple interactive Tarot reading web app with card information pages, built us
 
 ---
 
-## **Weekly Revision Checklist**
-**Frontend:**
-- Practice CSS Flexbox/Grid layouts.  
-- Review CSS 3D transforms and transitions.  
-- Revisit DOM manipulation and dynamic content updates.  
-- Event handling for dynamic elements.  
-
-**Backend / Flask:**
-- Flask routes and template rendering.  
-- Passing data from Python to templates.  
-- Static file handling with `url_for`.  
-
-**Data Handling:**
-- JSON structure & Fetch API.  
-- Array and object iteration (`map`, `forEach`).  
-
-**Project Logic:**
-- Card selection, flip limits, and reset flow.  
-- Conditional JS execution based on page context.  
-
-**Version Control & Environment:**
-- Git: commits, branches, viewing history.  
-- Virtual environment: installing packages, managing dependencies.  
-
-**Mini-Challenges:**
-- Add search/filter for cards.  
-- Modularize JS code per feature.  
-- Add local storage for saving selections.
-
----
-
 ## **Installation**
 1. Clone the repo:
    ```bash
