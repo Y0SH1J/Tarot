@@ -4,6 +4,56 @@ let maxFlip = 0;
 let selectedCards = [];
 let enterClicked = false;
 
+// card information
+let cardData = {};
+
+// Ensure trailing slash on STATIC_URL
+const STATIC = (typeof STATIC_URL !== 'undefined')
+  ? (STATIC_URL.endsWith('/') ? STATIC_URL : STATIC_URL + '/')
+  : '/static/'; // fallback
+
+const JSON_URL = typeof CARDS_JSON_URL !== 'undefined' ? CARDS_JSON_URL : '/static/data/cards.json';
+
+
+// Load JSON file once
+fetch(JSON_URL)
+    .then(response => response.json())
+    .then(data => {
+        cardData = data;
+    })
+    .catch(error => console.error("Error loading JSON:", error));
+
+// Function to display all cards from selected arcana
+function showArcana(arcanaName) {
+    const container = document.getElementById("arcana-info");
+    container.innerHTML = ""; // clear previous results
+
+    const cards = cardData[arcanaName]; // e.g. cardData["Major"]
+    console.log(cards);
+    if (!cards) {
+        container.innerHTML = "<p>No data found.</p>";
+        return;
+    }
+
+    cards.forEach(card => {
+        const cardRow = document.createElement("div");
+        cardRow.classList.add("card-info-row");
+
+        cardRow.innerHTML = `
+            <img src="${STATIC}${card.image}" alt="${card.name}">
+            <div class="card-text">
+                <h3>${card.name}</h3>
+                <p><strong>Upright:</strong> ${card.upright}</p>
+                <p><strong>Reversed:</strong> ${card.reversed}</p>
+                <p><strong>General:</strong> ${card.general}</p>
+            </div>
+        `;
+        console.log(`${STATIC}${card.image}`);
+        container.appendChild(cardRow);
+    });
+} 
+
+// Function to flip the card on the reading page
 function flipCard(cardElement, cardName) {
     const inner = cardElement.querySelector('.card-inner');
 
@@ -30,6 +80,7 @@ function flipCard(cardElement, cardName) {
     return;
 }
 
+// Function to shuffle the cards on reading page
 function shuffleCards(containerSelector){
     const container = document.querySelector(containerSelector)
     const cards = Array.from(container.children); //get all of the cards as an array
@@ -88,12 +139,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const buttonIds = Array.from(document.querySelectorAll('button'))
                        .map(btn => btn.id)
                        .filter(id => id); // removes empty strings
-        const output = document.getElementById("arcana-info");
 
-        buttonIds.forEach(id => {
-            const btn = document.getElementById(id);
-            btn.addEventListener('click', () => output.innerText = id);
-        })
+        document.getElementById("major").addEventListener("click", () => showArcana("Major"));
+        document.getElementById("cups").addEventListener("click", () => showArcana("Cups"));
+        document.getElementById("swords").addEventListener("click", () => showArcana("Swords"));
+        document.getElementById("pentacles").addEventListener("click", () => showArcana("Pentacles"));
+        document.getElementById("wands").addEventListener("click", () => showArcana("Wands"));
+        // const output = document.getElementById("arcana-info");
+
+        // buttonIds.forEach(id => {
+        //     const btn = document.getElementById(id);
+        //     btn.addEventListener('click', () => output.innerText = id);
+        // })
+
+
 
     }
 

@@ -3,7 +3,13 @@
     <head>
         <title>Card information</title>
          <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
-         <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+        <script>
+            // server-side resolved by Flask, safe to use in external JS
+            const STATIC_URL = "{{ url_for('static', filename='') }}";           // e.g. "/static/"
+            const CARDS_JSON_URL = "{{ url_for('static', filename='data/cards.json') }}";
+        </script>
+
+        <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
     </head>
     <body data-page="cards">
         <div class="header">
@@ -26,6 +32,7 @@
             </ul>
             
         </div>
-        <p id="arcana-info"></p>
+        
+        <div id="arcana-info" class="arcana-info">Select the arcana you would like to get details on.</div>
     </body>
 </html>

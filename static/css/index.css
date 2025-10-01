@@ -121,3 +121,34 @@
     border-radius: 8px;
     text-align: center;
 }
+
+/* Displaying each card in a row on card page */
+.arcana-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+
+.card-info-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fafafa;
+}
+
+.card-info-row img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-text {
+    flex: 1;
+}
+.card-text h3 {
+    margin: 0 0 10px 0;
+}

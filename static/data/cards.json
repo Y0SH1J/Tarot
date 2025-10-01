@@ -154,5 +154,406 @@
       "reversed": "Shortcuts, delays, unfinished goals.",
       "general": "The World represents completion, integration, and reaching a sense of fulfillment."
     }
+  ],
+   "Cups": [
+    {
+      "name": "Ace of Cups",
+      "upright": "New emotions, love, compassion",
+      "reversed": "Emotional loss, blocked feelings",
+      "general": "Represents beginnings in emotional life or relationships",
+      "image": "images/Cups/Ace of Cups.jpg"
+    },
+    {
+      "name": "2 of Cups",
+      "upright": "Partnership, unity, connection",
+      "reversed": "Breakups, imbalance in relationships",
+      "general": "Symbolizes harmony and mutual attraction",
+      "image": "images/Cups/2 of Cups.jpg"
+    },
+    {
+      "name": "3 of Cups",
+      "upright": "Celebration, friendship, community",
+      "reversed": "Overindulgence, gossip, isolation",
+      "general": "Represents joyful social gatherings and support networks",
+      "image": "images/Cups/3 of Cups.jpg"
+    },
+    {
+      "name": "4 of Cups",
+      "upright": "Contemplation, apathy, reevaluation",
+      "reversed": "Boredom, missed opportunities",
+      "general": "Encourages self-reflection and mindfulness",
+      "image": "images/Cups/4 of Cups.jpg"
+    },
+    {
+      "name": "5 of Cups",
+      "upright": "Regret, loss, disappointment",
+      "reversed": "Moving on, acceptance",
+      "general": "Represents mourning a loss but also the potential to recover",
+      "image": "images/Cups/5 of Cups.jpg"
+    },
+    {
+      "name": "6 of Cups",
+      "upright": "Nostalgia, childhood, memories",
+      "reversed": "Stuck in the past, naivety",
+      "general": "Represents reconnecting with innocence and simpler times",
+      "image": "images/Cups/6 of Cups.jpg"
+    },
+    {
+      "name": "7 of Cups",
+      "upright": "Choices, imagination, daydreams",
+      "reversed": "Illusions, lack of focus, confusion",
+      "general": "Represents multiple options and the need for clarity",
+      "image": "images/Cups/7 of Cups.jpg"
+    },
+    {
+      "name": "8 of Cups",
+      "upright": "Walking away, introspection, leaving behind",
+      "reversed": "Fear of change, stagnation",
+      "general": "Represents the decision to leave something unfulfilling behind",
+      "image": "images/Cups/8 of Cups.jpg"
+    },
+    {
+      "name": "9 of Cups",
+      "upright": "Contentment, wishes fulfilled, satisfaction",
+      "reversed": "Greed, dissatisfaction, indulgence",
+      "general": "Represents emotional fulfillment and achieving goals",
+      "image": "images/Cups/9 of Cups.jpg"
+    },
+    {
+      "name": "10 of Cups",
+      "upright": "Happiness, alignment, family harmony",
+      "reversed": "Disconnection, family strife",
+      "general": "Represents long-term happiness and emotional completion",
+      "image": "images/Cups/10 of Cups.jpg"
+    },
+    {
+      "name": "Page of Cups",
+      "upright": "Curiosity, creativity, messages",
+      "reversed": "Immaturity, emotional insecurity",
+      "general": "Represents new beginnings in emotional matters or intuition",
+      "image": "images/Cups/Page of Cups.jpg"
+    },
+    {
+      "name": "Knight of Cups",
+      "upright": "Romantic, adventurous, idealistic",
+      "reversed": "Unreliable, moodiness",
+      "general": "Represents action in emotional pursuits or following your heart",
+      "image": "images/Cups/Knight of Cups.jpg"
+    },
+    {
+      "name": "Queen of Cups",
+      "upright": "Compassionate, intuitive, nurturing",
+      "reversed": "Overemotional, dependent",
+      "general": "Represents emotional balance and empathetic leadership",
+      "image": "images/Cups/Queen of Cups.jpg"
+    },
+    {
+      "name": "King of Cups",
+      "upright": "Emotional control, wisdom, diplomacy",
+      "reversed": "Manipulative, emotional repression",
+      "general": "Represents mastery over emotions and guiding others compassionately",
+      "image": "images/Cups/King of Cups.jpg"
+    }
+  ],
+  "Swords": [
+    {
+      "name": "Ace of Swords",
+      "upright": "Clarity, truth, breakthrough",
+      "reversed": "Confusion, misinformation, chaos",
+      "general": "Represents mental clarity, decisions, and insight",
+      "image": "images/Swords/Ace of Swords.jpg"
+    },
+    {
+      "name": "2 of Swords",
+      "upright": "Indecision, stalemate",
+      "reversed": "Confusion, misinformation, avoidance",
+      "general": "Represents choice and weighing options",
+      "image": "images/Swords/2 of Swords.jpg"
+    },
+    {
+      "name": "3 of Swords",
+      "upright": "Heartbreak, grief, betrayal",
+      "reversed": "Recovery, forgiveness",
+      "general": "Represents emotional pain but also growth from loss",
+      "image": "images/Swords/3 of Swords.jpg"
+    },
+    {
+      "name": "4 of Swords",
+      "upright": "Rest, recovery, contemplation",
+      "reversed": "Exhaustion, burnout",
+      "general": "Represents taking time to heal and recharge",
+      "image": "images/Swords/4 of Swords.jpg"
+    },
+    {
+      "name": "5 of Swords",
+      "upright": "Conflict, tension, defeat",
+      "reversed": "Reconciliation, compromise",
+      "general": "Represents challenging encounters and ethical dilemmas",
+      "image": "images/Swords/5 of Swords.jpg"
+    },
+    {
+      "name": "6 of Swords",
+      "upright": "Transition, moving on",
+      "reversed": "Unresolved issues, resistance to change",
+      "general": "Represents leaving difficulties behind and moving forward",
+      "image": "images/Swords/6 of Swords.jpg"
+    },
+    {
+      "name": "7 of Swords",
+      "upright": "Strategy, stealth, deception",
+      "reversed": "Confession, getting caught",
+      "general": "Represents planning carefully and being cautious",
+      "image": "images/Swords/7 of Swords.jpg"
+    },
+    {
+      "name": "8 of Swords",
+      "upright": "Restriction, limitation, imprisonment",
+      "reversed": "Freedom, release, empowerment",
+      "general": "Represents feeling trapped mentally and seeking solutions",
+      "image": "images/Swords/8 of Swords.jpg"
+    },
+    {
+      "name": "9 of Swords",
+      "upright": "Anxiety, fear, nightmares",
+      "reversed": "Hope, recovery",
+      "general": "Represents mental anguish but opportunity for recovery",
+      "image": "images/Swords/9 of Swords.jpg"
+    },
+    {
+      "name": "10 of Swords",
+      "upright": "Pain, betrayal, endings",
+      "reversed": "Recovery, regeneration",
+      "general": "Represents a painful ending and opportunity for a fresh start",
+      "image": "images/Swords/10 of Swords.jpg"
+    },
+    {
+      "name": "Page of Swords",
+      "upright": "Curiosity, communication, learning",
+      "reversed": "Deception, lack of planning",
+      "general": "Represents intellectual exploration and observation",
+      "image": "images/Swords/Page of Swords.jpg"
+    },
+    {
+      "name": "Knight of Swords",
+      "upright": "Action, ambition, courage",
+      "reversed": "Recklessness, haste",
+      "general": "Represents swift movement and decisiveness",
+      "image": "images/Swords/Knight of Swords.jpg"
+    },
+    {
+      "name": "Queen of Swords",
+      "upright": "Intelligence, perception, independence",
+      "reversed": "Cold-hearted, overly critical",
+      "general": "Represents mental clarity, honesty, and experience",
+      "image": "images/Swords/Queen of Swords.jpg"
+    },
+    {
+      "name": "King of Swords",
+      "upright": "Authority, truth, intellectual power",
+      "reversed": "Manipulative, abuse of power",
+      "general": "Represents strategic thinking and leadership",
+      "image": "images/Swords/King of Swords.jpg"
+    }
+  ],
+   "Wands": [
+    {
+      "name": "Ace of Wands",
+      "image": "images/Wands/Ace of Wands.jpg",
+      "upright": "New opportunities, inspiration, and creative energy.",
+      "reversed": "Delays, lack of motivation, or missed opportunities.",
+      "general": "Focus on new projects or ventures."
+    },
+    {
+      "name": "2 of Wands",
+      "image": "images/Wands/2 of Wands.jpg",
+      "upright": "Planning, progress, and personal goals.",
+      "reversed": "Fear of unknown, indecision, or lack of planning.",
+      "general": "Time to consider options and take initiative."
+    },
+    {
+      "name": "3 of Wands",
+      "image": "images/Wands/3 of Wands.jpg",
+      "upright": "Expansion, foresight, and long-term success.",
+      "reversed": "Obstacles, delays, or limited progress.",
+      "general": "Keep vision wide and plan ahead."
+    },
+    {
+      "name": "4 of Wands",
+      "image": "images/Wands/4 of Wands.jpg",
+      "upright": "Celebration, harmony, and home milestones.",
+      "reversed": "Conflict at home or postponed celebrations.",
+      "general": "Cherish stability and achievements."
+    },
+    {
+      "name": "5 of Wands",
+      "image": "images/Wands/5 of Wands.jpg",
+      "upright": "Competition, conflict, and challenges.",
+      "reversed": "Avoiding conflict, inner tension.",
+      "general": "Learn from differences, grow through challenges."
+    },
+    {
+      "name": "6 of Wands",
+      "image": "images/Wands/6 of Wands.jpg",
+      "upright": "Victory, recognition, success.",
+      "reversed": "Ego issues, lack of recognition.",
+      "general": "Celebrate achievements, stay humble."
+    },
+    {
+      "name": "7 of Wands",
+      "image": "images/Wands/7 of Wands.jpg",
+      "upright": "Perseverance, defending position.",
+      "reversed": "Overwhelmed, giving up too soon.",
+      "general": "Stand firm and protect your ideas."
+    },
+    {
+      "name": "8 of Wands",
+      "image": "images/Wands/8 of Wands.jpg",
+      "upright": "Speed, progress, rapid movement.",
+      "reversed": "Delays, obstacles, miscommunication.",
+      "general": "Expect movement and quick decisions."
+    },
+    {
+      "name": "9 of Wands",
+      "image": "images/Wands/9 of Wands.jpg",
+      "upright": "Resilience, persistence, courage.",
+      "reversed": "Exhaustion, defensiveness, giving up.",
+      "general": "Keep pushing forward despite challenges."
+    },
+    {
+      "name": "10 of Wands",
+      "image": "images/Wands/10 of Wands.jpg",
+      "upright": "Burden, responsibility, hard work.",
+      "reversed": "Relief, delegation, stress reduction.",
+      "general": "Manage responsibilities wisely."
+    },
+    {
+      "name": "Page of Wands",
+      "image": "images/Wands/Page of Wands.jpg",
+      "upright": "Exploration, curiosity, inspiration.",
+      "reversed": "Lack of direction, procrastination.",
+      "general": "Embrace learning and new experiences."
+    },
+    {
+      "name": "Knight of Wands",
+      "image": "images/Wands/Knight of Wands.jpg",
+      "upright": "Energy, adventure, impulsiveness.",
+      "reversed": "Recklessness, impatience.",
+      "general": "Channel energy productively."
+    },
+    {
+      "name": "Queen of Wands",
+      "image": "images/Wands/Queen of Wands.jpg",
+      "upright": "Confidence, determination, charisma.",
+      "reversed": "Jealousy, manipulation, insecurity.",
+      "general": "Lead with passion and authenticity."
+    },
+    {
+      "name": "King of Wands",
+      "image": "images/Wands/King of Wands.jpg",
+      "upright": "Leadership, vision, entrepreneurship.",
+      "reversed": "Impulsiveness, authoritarianism.",
+      "general": "Take charge wisely and inspire others."
+    }
+  ],
+  "Pentacles": [
+    {
+      "name": "Ace of Pentacles",
+      "image": "images/Pentacles/Ace of Pentacles.jpg",
+      "upright": "New financial opportunity, prosperity.",
+      "reversed": "Missed opportunity, lack of planning.",
+      "general": "Focus on building stable foundations."
+    },
+    {
+      "name": "2 of Pentacles",
+      "image": "images/Pentacles/2 of Pentacles.jpg",
+      "upright": "Balance, adaptability, multitasking.",
+      "reversed": "Overwhelm, mismanagement, imbalance.",
+      "general": "Prioritize and manage resources carefully."
+    },
+    {
+      "name": "3 of Pentacles",
+      "image": "images/Pentacles/3 of Pentacles.jpg",
+      "upright": "Collaboration, skill, teamwork.",
+      "reversed": "Lack of teamwork, poor communication.",
+      "general": "Value expertise and coordinated efforts."
+    },
+    {
+      "name": "4 of Pentacles",
+      "image": "images/Pentacles/4 of Pentacles.jpg",
+      "upright": "Security, conservatism, control.",
+      "reversed": "Greed, financial insecurity, rigidity.",
+      "general": "Maintain balance between saving and sharing."
+    },
+    {
+      "name": "5 of Pentacles",
+      "image": "images/Pentacles/5 of Pentacles.jpg",
+      "upright": "Financial loss, hardship, isolation.",
+      "reversed": "Recovery, support, improvement.",
+      "general": "Seek assistance and keep moving forward."
+    },
+    {
+      "name": "6 of Pentacles",
+      "image": "images/Pentacles/6 of Pentacles.jpg",
+      "upright": "Generosity, charity, balance.",
+      "reversed": "Selfishness, debt, inequality.",
+      "general": "Share resources fairly."
+    },
+    {
+      "name": "7 of Pentacles",
+      "image": "images/Pentacles/7 of Pentacles.jpg",
+      "upright": "Patience, assessment, reward.",
+      "reversed": "Impatience, poor investment, delays.",
+      "general": "Evaluate progress and plan long-term."
+    },
+    {
+      "name": "8 of Pentacles",
+      "image": "images/Pentacles/8 of Pentacles.jpg",
+      "upright": "Apprenticeship, skill development, diligence.",
+      "reversed": "Lack of focus, poor quality, cutting corners.",
+      "general": "Commit to mastery of your craft."
+    },
+    {
+      "name": "9 of Pentacles",
+      "image": "images/Pentacles/9 of Pentacles.jpg",
+      "upright": "Abundance, self-sufficiency, luxury.",
+      "reversed": "Financial setbacks, dependence.",
+      "general": "Enjoy achievements responsibly."
+    },
+    {
+      "name": "10 of Pentacles",
+      "image": "images/Pentacles/10 of Pentacles.jpg",
+      "upright": "Legacy, inheritance, family wealth.",
+      "reversed": "Family disputes, financial instability.",
+      "general": "Focus on long-term security and family."
+    },
+    {
+      "name": "Page of Pentacles",
+      "image": "images/Pentacles/Page of Pentacles.jpg",
+      "upright": "Learning, new opportunity, diligence.",
+      "reversed": "Lack of progress, distractions.",
+      "general": "Be attentive and disciplined."
+    },
+    {
+      "name": "Knight of Pentacles",
+      "image": "images/Pentacles/Knight of Pentacles.jpg",
+      "upright": "Hard work, responsibility, routine.",
+      "reversed": "Laziness, stagnation, monotony.",
+      "general": "Stay consistent and diligent."
+    },
+    {
+      "name": "Queen of Pentacles",
+      "image": "images/Pentacles/Queen of Pentacles.jpg",
+      "upright": "Nurturing, practicality, financial security.",
+      "reversed": "Self-centeredness, over-dependence.",
+      "general": "Care for yourself and others wisely."
+    },
+    {
+      "name": "King of Pentacles",
+      "image": "images/Pentacles/King of Pentacles.jpg",
+      "upright": "Wealth, stability, discipline.",
+      "reversed": "Greed, instability, rigidity.",
+      "general": "Lead with practical wisdom."
+    }
   ]
 }
+

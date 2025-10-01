@@ -4,6 +4,7 @@ import os
 app = Flask(__name__)
 image_folder = " "
 imagesMain = {}
+cardsMain = {}
 
 def path(specificPath, num):
     pathList = specificPath
@@ -22,7 +23,8 @@ def home():
 
 @app.route("/cards")
 def cards():
-    return render_template("cards.html")
+    imagesMain = path(['Major', 'Cups', 'Pentacles', 'Swords', 'Wands'], 5)
+    return render_template("cards.html", cards=cardsMain)
 
 @app.route("/reading")
 def reading():
