@@ -97,17 +97,27 @@ A simple interactive Tarot reading web app with card information pages, built us
 3. Navigate to the Cards or Reading page and interact with the cards.
 
 ## **Folder Structure**
-tarot-mini-website/
-├─ main.py
-├─ templates/
-│  ├─ index.html
-│  ├─ cards.html
-│  └─ reading.html
-├─ static/
-│  ├─ css/index.css
-│  ├─ js/script.js
-│  ├─ data/cards.json
-│  └─ images/
-└─ venv/
+```C:.
+├── main.py
+├── static
+│   ├── css
+│   │   └── index.css
+│   ├── data
+│   │   └── cards.json
+│   ├── images
+│   │   ├── Cups
+│   │   ├── Major
+│   │   ├── Pentacles
+│   │   ├── Swords
+│   │   └── Wands
+│   └── js
+│       └── script.js
+├── templates
+│   ├── index.html
+│   ├── cards.html
+│   └── reading.html
+├── venv
+└── __pycache__
+```
 
 
