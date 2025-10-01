@@ -30,6 +30,8 @@ A simple interactive Tarot reading web app with card information pages, built us
 
 ## **Demo**
 ![Home page](/Screenshot1.png)
+![Card Information page](/Screenshot2.png)
+![Reading page](/Screenshot3.png)
 
 - **Home Page:** Overview and navigation.  
 - **Cards Page:** Display all card images with upright, reversed, and general interpretations.  
