@@ -1,0 +1,158 @@
+{
+  "Major": [
+    {
+      "name": "The Fool",
+      "image": "images/Major/The Fool.jpg",
+      "upright": "Beginnings, innocence, spontaneity, free spirit.",
+      "reversed": "Recklessness, taken advantage of, inconsideration.",
+      "general": "The Fool represents new journeys, risk-taking, and stepping into the unknown with trust in life."
+    },
+    {
+      "name": "The Magician",
+      "image": "images/Major/The Magician.jpg",
+      "upright": "Manifestation, resourcefulness, power, inspired action.",
+      "reversed": "Manipulation, poor planning, untapped talents.",
+      "general": "The Magician signifies the ability to turn ideas into reality using skills, focus, and determination."
+    },
+    {
+      "name": "The High Priestess",
+      "image": "images/Major/The High Priestess.jpg",
+      "upright": "Intuition, unconscious knowledge, divine feminine, mystery.",
+      "reversed": "Secrets, disconnected from intuition, withdrawal, silence.",
+      "general": "The High Priestess invites you to trust your intuition and embrace hidden wisdom beyond logic."
+    },
+    {
+      "name": "The Empress",
+      "image": "images/Major/The Empress.jpg",
+      "upright": "Fertility, nurturing, beauty, abundance.",
+      "reversed": "Dependence, creative block, emptiness.",
+      "general": "The Empress embodies growth, creativity, and the nurturing energy of motherly love and nature."
+    },
+    {
+      "name": "The Emperor",
+      "image": "images/Major/The Emporer.jpg",
+      "upright": "Authority, structure, control, fatherhood.",
+      "reversed": "Domination, rigidity, lack of discipline.",
+      "general": "The Emperor represents order, discipline, and the stabilizing influence of strong leadership."
+    },
+    {
+      "name": "The Hierophant",
+      "image": "images/Major/The Hierophant.jpg",
+      "upright": "Tradition, conformity, spiritual wisdom, institutions.",
+      "reversed": "Rebellion, personal beliefs, challenging tradition.",
+      "general": "The Hierophant represents conventional wisdom, learning from tradition, and spiritual guidance."
+    },
+    {
+      "name": "The Lovers",
+      "image": "images/Major/The Lovers.jpg",
+      "upright": "Love, harmony, values alignment, choices.",
+      "reversed": "Disharmony, imbalance, misaligned values.",
+      "general": "The Lovers card signifies deep connection, meaningful relationships, and important choices guided by values."
+    },
+    {
+      "name": "The Chariot",
+      "image": "images/Major/The Chariot.jpg",
+      "upright": "Determination, willpower, success, discipline.",
+      "reversed": "Lack of direction, aggression, obstacles.",
+      "general": "The Chariot represents control, determination, and the ability to overcome challenges with focus."
+    },
+    {
+      "name": "Strength",
+      "image": "images/Major/Strength.jpg",
+      "upright": "Courage, inner strength, compassion, resilience.",
+      "reversed": "Self-doubt, insecurity, weakness.",
+      "general": "Strength symbolizes the quiet power of patience, compassion, and gentle determination."
+    },
+    {
+      "name": "The Hermit",
+      "image": "images/Major/The Hermit.jpg",
+      "upright": "Introspection, inner guidance, solitude, wisdom.",
+      "reversed": "Isolation, loneliness, withdrawal.",
+      "general": "The Hermit calls for reflection, inner searching, and finding wisdom through solitude."
+    },
+    {
+      "name": "Wheel of Fortune",
+      "image": "images/Major/Wheel of Fortune.jpg",
+      "upright": "Good luck, destiny, life cycles, change.",
+      "reversed": "Bad luck, resistance to change, setbacks.",
+      "general": "The Wheel of Fortune symbolizes cycles of change, fate, and the ups and downs of life."
+    },
+    {
+      "name": "Justice",
+      "image": "images/Major/Justice.jpg",
+      "upright": "Truth, fairness, law, accountability.",
+      "reversed": "Dishonesty, unfairness, lack of accountability.",
+      "general": "Justice represents truth, fairness, and the law of cause and effect."
+    },
+    {
+      "name": "The Hanged Man",
+      "image": "images/Major/The Hanged Man.jpg",
+      "upright": "Pause, surrender, new perspective, letting go.",
+      "reversed": "Stalling, indecision, resistance.",
+      "general": "The Hanged Man calls for a shift in perspective, patience, and surrendering control."
+    },
+    {
+      "name": "Death",
+      "image": "images/Major/Death.jpg",
+      "upright": "Endings, transformation, transition, rebirth.",
+      "reversed": "Resistance to change, stagnation, fear of new beginnings.",
+      "general": "Death symbolizes transformation, closure, and the start of a new chapter."
+    },
+    {
+      "name": "Temperance",
+      "image": "images/Major/Temperance.jpg",
+      "upright": "Balance, moderation, patience, harmony.",
+      "reversed": "Imbalance, excess, conflict, lack of harmony.",
+      "general": "Temperance represents the art of balance, blending, and harmonious living."
+    },
+    {
+      "name": "The Devil",
+      "image": "images/Major/The Devil.jpg",
+      "upright": "Addiction, materialism, playfulness, bondage.",
+      "reversed": "Breaking free, detachment, independence.",
+      "general": "The Devil warns of unhealthy attachments but also represents awareness of temptation."
+    },
+    {
+      "name": "The Tower",
+      "image": "images/Major/The Tower.jpg",
+      "upright": "Sudden change, upheaval, chaos, revelation.",
+      "reversed": "Fear of change, avoiding disaster.",
+      "general": "The Tower symbolizes sudden upheaval that clears the way for new growth."
+    },
+    {
+      "name": "The Star",
+      "image": "images/Major/The Star.jpg",
+      "upright": "Hope, inspiration, spirituality, renewal.",
+      "reversed": "Despair, disconnection, lack of faith.",
+      "general": "The Star represents faith, guidance, and renewal after challenges."
+    },
+    {
+      "name": "The Moon",
+      "image": "images/Major/The Moon.jpg",
+      "upright": "Illusion, fear, subconscious, intuition.",
+      "reversed": "Confusion, fear released, clarity.",
+      "general": "The Moon symbolizes the subconscious, dreams, and navigating through uncertainty."
+    },
+    {
+      "name": "The Sun",
+      "image": "images/Major/The Sun.jpg",
+      "upright": "Joy, success, positivity, vitality.",
+      "reversed": "Overconfidence, sadness, unrealistic expectations.",
+      "general": "The Sun radiates happiness, success, and positivity in all aspects of life."
+    },
+    {
+      "name": "Judgement",
+      "image": "images/Major/Judgement.jpg",
+      "upright": "Reflection, reckoning, inner calling, renewal.",
+      "reversed": "Self-doubt, failure to learn lessons, stagnation.",
+      "general": "Judgement calls for self-reflection, forgiveness, and spiritual awakening."
+    },
+    {
+      "name": "The World",
+      "image": "images/Major/The World.jpg",
+      "upright": "Completion, accomplishment, travel, wholeness.",
+      "reversed": "Shortcuts, delays, unfinished goals.",
+      "general": "The World represents completion, integration, and reaching a sense of fulfillment."
+    }
+  ]
+}
